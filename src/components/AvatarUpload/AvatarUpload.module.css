@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  box-sizing: border-box;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #b74242;
+}
+.container .input {
+  display: none;
+}
+.container .avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: #b74242;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .avatar img {
+  max-width: 90px;
+  max-height: 90px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=AvatarUpload.module.css.map */

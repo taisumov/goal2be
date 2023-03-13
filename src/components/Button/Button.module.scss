@@ -1,0 +1,42 @@
+@import '/src/shared/styles/styles';
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  border-radius: 15px;
+}
+
+.link {
+  width: 100%;
+  text-decoration: none;
+  color: $blue-color;
+}
+
+.small {
+  padding: 7px 0;
+}
+
+.medium {
+  padding: 17px 0;
+}
+
+.outline {
+  border: 1px solid $blue-color;
+  color: $blue-color;
+  background-color: $white-color;
+}
+
+.default {
+  border: none;
+  color: $white-color;
+  background-color: $blue-color;
+}
+
+.disabled {
+  background-color: $grey-color;
+  border: 1px solid #565656;
+  color: black;
+}

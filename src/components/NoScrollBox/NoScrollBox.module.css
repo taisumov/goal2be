@@ -1,0 +1,11 @@
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 20px 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=NoScrollBox.module.css.map */

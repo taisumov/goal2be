@@ -1,0 +1,21 @@
+@import '/src/shared/styles/styles';
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  .item {
+    width: 100%;
+    border: 1px solid $grey-color;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    &__active {
+      background-color: $blue-color;
+      color: $white-color;
+      border-color: $blue-color;
+      font-weight: bold;
+    }
+  }
+}

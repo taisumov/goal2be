@@ -1,0 +1,18 @@
+@import '/src/shared/styles/styles';
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .codeInput {
+    padding: 20px 0;
+    width: 100%;
+    font-size: 10vw;
+    text-align: center;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid #515154;
+  }
+}

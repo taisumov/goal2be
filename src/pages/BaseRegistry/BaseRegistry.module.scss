@@ -1,0 +1,16 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.inputContainer {
+  margin-top: 50px;
+  padding: 0 60px;
+}
+
+.confirmButton {
+  padding: 30px 60px;
+}

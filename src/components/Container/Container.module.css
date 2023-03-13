@@ -1,0 +1,9 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+/*# sourceMappingURL=Container.module.css.map */
